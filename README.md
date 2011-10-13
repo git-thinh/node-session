@@ -9,9 +9,9 @@ Download github repository and unzip into nodu_modules folder of your node.js in
 
 ## Usage
 
-Here is an incomplete example. Fill in ... yourself.
+Here is an incomplete example.
 
-<code>
+<pre><code>
 var http 	 = require('http');
 var session  = require('session');
 
@@ -42,4 +42,4 @@ var server  = http.createServer(function (req, res) {
 }
 server.listen(90, "127.0.0.1");
 console.log('Server: http://127.0.0.1:90/');
-</code>
+</code></pre>
