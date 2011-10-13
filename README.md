@@ -1,11 +1,13 @@
 ## Node-session
 
-Node-session is HTTP session library for Node.js. Currently only one storage engine is supported - memecached. You will need 
-to download and install this repository [https://github.com/elbart/node-memcache](https://github.com/elbart/node-memcache).
+Node-session is HTTP/HTTPS session handler library for Node.js. Currently only one storage engine is supported - memecached. 
+Planning to support mysql, sqlite and files.
 
 ## Installation
 
-Download github repository and unzip into nodu_modules folder of your node.js installation. Rename the folder into session.
+Download github repository and unzip into node_modules folder of your node.js installation. Rename the folder into session. Then
+download and install [https://github.com/elbart/node-memcache](https://github.com/elbart/node-memcache). Don't forget to install
+memcache itself - both Linux/Unix and Windows versions are available.
 
 ## Usage
 
