@@ -14,7 +14,6 @@ Here is an incomplete example. Fill in ... yourself.
 <code>
 	var http 	 = require('http');
 	var session  = require('session');
-
 	var server  = http.createServer(function (req, res) {
 		var tmp 	= req.url.split('?');
 		var cmd    	= tmp[0];
